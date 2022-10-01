@@ -1,0 +1,17 @@
+<nav class="navbar fixed-top d-flex justify-content-between navbar-expand-lg color" style="background-color: rgb(77, 72, 177) !important;">
+        <div class="mx-3">
+            <button class="color" mat-icon-button class="example-icon">
+                <mat-icon>brightness_low</mat-icon>
+            </button>
+            <a class="navbar-brand color" [routerLink]="['posts']" >Recomeçar</a>
+        </div>
+        
+        <div class="nav m-auto">
+            <input type="text" class="pesquisa p-3" placeholder="Pesquisar" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+
+        <div class="me-3">
+            <button mat-raised-button color="primary" [routerLink]="['posts/cadastrar']">Cadastrar Post</button>
+        </div>
+      
+  </nav>

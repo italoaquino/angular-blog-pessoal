@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body {
+    background: rgb(203, 203, 231) !important;
+    height: 100%;
+}
+body {margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+$color-blue: rgb(77, 72, 177) !important;
+
+$color-gradient: linear-gradient(90deg, rgb(10, 5, 105) 0%, rgb(18, 18, 185) 35%, rgb(13, 97, 180) 100%) !important;;

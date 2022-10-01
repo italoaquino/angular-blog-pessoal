@@ -1,0 +1,28 @@
+
+
+
+span{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 800;
+}
+
+nav{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+}
+
+.pesquisa{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+}
+
+.pesquisa:hover{
+    border: none;
+}
+
+.color{
+    color: white !important;
+}
